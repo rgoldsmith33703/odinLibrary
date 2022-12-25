@@ -1,0 +1,19 @@
+.books {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+}
+
+.card {
+    max-width: fit-content;
+    padding: 15px;
+    border: 1px solid black;
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    text-align: center;
+}
+
+#addBookFormDiv {
+    display: none;
+}
